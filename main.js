@@ -4,12 +4,12 @@ var exitMenu = $('.fa-times');
 
 menuHamb.click(function () { 
 
-    listMenu.toggle("slow");
+    listMenu.show("slow");
     
 });
 
 exitMenu.click(function () { 
 
-    listMenu.toggle("slow");
+    listMenu.hide("slow");
     
 });
